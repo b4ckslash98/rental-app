@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/b4ckslash/rental-app/services/user/utils"
+	"github.com/b4ckslash98/rental-app/services/user/utils"
 
 	"github.com/gin-gonic/gin"
 )

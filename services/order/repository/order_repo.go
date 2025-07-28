@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/b4ckslash/rental-app/services/order/entity"
+	"github.com/b4ckslash98/rental-app/services/order/entity"
 
 	"gorm.io/gorm"
 )

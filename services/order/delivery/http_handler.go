@@ -3,9 +3,9 @@ package delivery
 import (
 	"net/http"
 
-	"github.com/b4ckslash/rental-app/services/order/entity"
-	"github.com/b4ckslash/rental-app/services/order/usecase"
-	mw "github.com/b4ckslash/rental-app/services/user/middleware"
+	"github.com/b4ckslash98/rental-app/services/order/entity"
+	"github.com/b4ckslash98/rental-app/services/order/usecase"
+	mw "github.com/b4ckslash98/rental-app/services/user/middleware"
 
 	"github.com/gin-gonic/gin"
 )

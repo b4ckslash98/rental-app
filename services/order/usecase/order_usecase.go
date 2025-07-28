@@ -4,10 +4,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/b4ckslash/rental-app/services/order/entity"
-	"github.com/b4ckslash/rental-app/services/order/grpc/carclient"
-	"github.com/b4ckslash/rental-app/services/order/grpc/userclient"
-	"github.com/b4ckslash/rental-app/services/order/repository"
+	"github.com/b4ckslash98/rental-app/services/order/entity"
+	"github.com/b4ckslash98/rental-app/services/order/grpc/carclient"
+	"github.com/b4ckslash98/rental-app/services/order/grpc/userclient"
+	"github.com/b4ckslash98/rental-app/services/order/repository"
 )
 
 type OrderUsecase interface {

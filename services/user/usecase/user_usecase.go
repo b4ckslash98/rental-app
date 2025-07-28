@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"github.com/b4ckslash/rental-app/services/user/entity"
-	"github.com/b4ckslash/rental-app/services/user/repository"
+	"github.com/b4ckslash98/rental-app/services/user/entity"
+	"github.com/b4ckslash98/rental-app/services/user/repository"
 
 	"golang.org/x/crypto/bcrypt"
 )

@@ -4,8 +4,9 @@ import (
 	"context"
 	"log"
 	"net"
-	pb "github.com/b4ckslash/rental-app/proto"
-	"github.com/b4ckslash/rental-app/services/user/repository"
+
+	pb "github.com/b4ckslash98/rental-app/proto"
+	"github.com/b4ckslash98/rental-app/services/user/repository"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"

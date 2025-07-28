@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/b4ckslash/rental-app/services/order/delivery"
-	"github.com/b4ckslash/rental-app/services/order/entity"
-	"github.com/b4ckslash/rental-app/services/order/grpc/carclient"
-	"github.com/b4ckslash/rental-app/services/order/grpc/userclient"
-	"github.com/b4ckslash/rental-app/services/order/repository"
-	"github.com/b4ckslash/rental-app/services/order/usecase"
+
+	"github.com/b4ckslash98/rental-app/services/order/delivery"
+	"github.com/b4ckslash98/rental-app/services/order/entity"
+	"github.com/b4ckslash98/rental-app/services/order/grpc/carclient"
+	"github.com/b4ckslash98/rental-app/services/order/grpc/userclient"
+	"github.com/b4ckslash98/rental-app/services/order/repository"
+	"github.com/b4ckslash98/rental-app/services/order/usecase"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/driver/postgres"

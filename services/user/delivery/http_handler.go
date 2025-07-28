@@ -3,7 +3,7 @@ package delivery
 import (
 	"net/http"
 
-	"github.com/b4ckslash/rental-app/services/user/usecase"
+	"github.com/b4ckslash98/rental-app/services/user/usecase"
 
 	"github.com/gin-gonic/gin"
 )

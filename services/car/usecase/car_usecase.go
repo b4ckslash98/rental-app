@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"github.com/b4ckslash/rental-app/services/car/entity"
-	"github.com/b4ckslash/rental-app/services/car/repository"
+	"github.com/b4ckslash98/rental-app/services/car/entity"
+	"github.com/b4ckslash98/rental-app/services/car/repository"
 )
 
 type CarUsecase interface {

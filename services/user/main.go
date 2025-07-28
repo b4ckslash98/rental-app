@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	usergrpc "github.com/b4ckslash/rental-app/services/user/grpc"
-	"github.com/b4ckslash/rental-app/services/user/delivery"
-	"github.com/b4ckslash/rental-app/services/user/entity"
-	"github.com/b4ckslash/rental-app/services/user/repository"
-	"github.com/b4ckslash/rental-app/services/user/usecase"
+
+	"github.com/b4ckslash98/rental-app/services/user/delivery"
+	"github.com/b4ckslash98/rental-app/services/user/entity"
+	usergrpc "github.com/b4ckslash98/rental-app/services/user/grpc"
+	"github.com/b4ckslash98/rental-app/services/user/repository"
+	"github.com/b4ckslash98/rental-app/services/user/usecase"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/driver/postgres"
