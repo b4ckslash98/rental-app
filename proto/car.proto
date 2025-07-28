@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package car;
+
+option go_package = "./proto/";
+
+service CarService {
+  rpc CheckAvailability(CarRequest) returns (CarResponse);
+}
+
+message CarRequest {
+  int32 car_id = 1;
+}
+
+message CarResponse {
+  bool is_available = 1;
+}

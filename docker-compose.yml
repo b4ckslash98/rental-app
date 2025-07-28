@@ -1,0 +1,59 @@
+version: "3.8"
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: rent_car_db
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  order-service:
+    build: ./services/order
+    ports:
+      - "8083:8083"
+    depends_on:
+      - postgres
+    environment:
+      DB_HOST: postgres
+      DB_USER: user
+      DB_PASS: password
+      DB_NAME: order_db
+      DB_PORT: 5432
+      JWT_SECRET: 123123
+  
+  car-service:
+    build: ./services/car
+    ports:
+      - "8082:8082"
+    depends_on:
+      - postgres
+    environment:
+      DB_HOST: postgres
+      DB_USER: user
+      DB_PASS: password
+      DB_NAME: car_db
+      DB_PORT: 5432
+      JWT_SECRET: 123123
+  
+  user-service:
+    build: ./services/user
+    ports:
+      - "8081:8081"
+    depends_on:
+      - postgres
+    environment:
+      DB_HOST: postgres
+      DB_USER: user
+      DB_PASS: password
+      DB_NAME: user_db
+      DB_PORT: 5432
+      JWT_SECRET: 123123
+
+volumes:
+  pgdata:
