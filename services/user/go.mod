@@ -1,9 +1,9 @@
-module github.com/b4ckslash/rental-app/services/user
+module github.com/b4ckslash98/rental-app/services/user
 
 go 1.24.5
 
 require (
-	github.com/b4ckslash/rental-app/proto v0.0.0-00010101000000-000000000000
+	github.com/b4ckslash98/rental-app/proto v0.0.0-00010101000000-000000000000
 	github.com/gin-gonic/gin v1.10.1
 	github.com/golang-jwt/jwt/v4 v4.5.2
 	golang.org/x/crypto v0.40.0
@@ -49,5 +49,3 @@ require (
 	google.golang.org/protobuf v1.36.6 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/b4ckslash/rental-app/proto => ../../proto

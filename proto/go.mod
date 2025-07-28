@@ -1,4 +1,4 @@
-module github.com/b4ckslash/rental-app/proto
+module github.com/b4ckslash98/rental-app/proto
 
 go 1.24.5
 

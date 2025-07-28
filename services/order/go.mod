@@ -1,9 +1,9 @@
-module github.com/b4ckslash/rental-app/services/order
+module github.com/b4ckslash98/rental-app/services/order
 
 go 1.24.5
 
 require (
-	github.com/b4ckslash/rental-app/services/user v0.0.0-00010101000000-000000000000
+	github.com/b4ckslash98/rental-app/services/user v0.0.0-00010101000000-000000000000
 	github.com/gin-gonic/gin v1.10.1
 	gorm.io/driver/postgres v1.6.0
 	gorm.io/gorm v1.30.1
@@ -45,4 +45,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/b4ckslash/rental-app/services/user => ../user
+replace github.com/b4ckslash98/rental-app/services/user => ../user
